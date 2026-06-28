@@ -1,8 +1,35 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+header {
+  text-align: center;
+  padding: 10px;
+  font: 14px Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  background-color: #e446bd;
+  color: #FFF5EE;
 }
-
-a {
-  color: #00B7FF;
+body {
+  background-color: #e989c4;
+  color:#FFF5EE;
+  font: 14px Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+nav {
+  background-color: #e446bd;
+  color: #FFF5EE;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+    color: #FFF5EE;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+footer {
+  background-color: #e48bce;
+  color: #FFF5EE;
+  text-align: center;
 }
