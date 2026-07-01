@@ -36,7 +36,6 @@ nav a:hover {
 body {
   /*background: rgb(29, 28, 28);*/
   background: linear-gradient(to bottom, #000000, #1c1c1c);
-  background-image: url('../img/bodyBg.jpg');
   color: #FFF5EE;
   display: flex;
   flex-direction: column;
@@ -53,7 +52,7 @@ main {
 }
 
 footer {
-  background-color: #000000; 
+  background: linear-gradient(to bottom, #1c1c1c, #000000);
   color: #ffffff;
   text-align: center;
 }
