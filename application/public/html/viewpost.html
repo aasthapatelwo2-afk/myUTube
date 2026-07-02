@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>My U tube</h1>
+        <h1>My U Tube</h1>
     </header>
 
     <nav>
@@ -20,10 +20,15 @@
     </nav>
 
     <main class="view-videos-page">
-        <!-- added: page title outside of the video cards -->
         <h2>All Videos</h2>
+        
+        <form class="search-bar">
+            <input type="text" placeholder="Search videos..." name="search">
+            <button type = "submit">Search</button>
+        </form>
+        <br>
+        <br>
 
-        <!-- added: grid section for multiple videos -->
         <section class="video-grid">
 
             <div class="video-card">
@@ -61,7 +66,6 @@
 
         </section>
 
-        <!-- added: comment section moved below the videos -->
         <section class="comment-section">
             <h3>Comments</h3>
 
@@ -69,13 +73,13 @@
                 <p><strong>Jane Smith:</strong> Great video! Really enjoyed it.</p>
                 <p><strong>Bob Johnson:</strong> Informative content, thanks for sharing!</p>
             </div>
-
+            <div class="comment-form">
             <form>
                 <label for="comment">Leave a comment:</label>
                 <textarea id="comment" name="comment" placeholder="Write your comment here..."></textarea>
-
-                <input type="submit" value="Post Comment">
+                    <button type = "submit">Comment</button>
             </form>
+             </div>
         </section>
     </main>
 
